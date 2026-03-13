@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+# Project: Student Digital ID Card 🪪
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple mobile application built using React Native that displays a Digital Student Identity Card.
+This project was created as a practice assignment for Mobile Programming.
 
-## Get started
+The application shows basic student information such as Name, Student ID (NIM), Major, and a Motivational Quote in a clean and simple UI.
 
-1. Install dependencies
+## 📸 Screenshots
+![Preview Aplikasi](link_ke_foto_lo.png)
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
+- **Framework:** React Native (Expo SDK)
+- **Navigation:** Expo Router
+- **Language:** TypeScript / JavaScript
+- **Editor:** Visual Studio Code
 
-2. Start the app
+## 📋 Features
+   1. Display Student Name
+   2. Display Student ID (NIM)
+   3. Display Major
+   4. Display a Motivational Quote
 
-   ```bash
-   npx expo start
-   ```
+## 🧩 Components Used
+   1. View
 
-In the output, you'll find options to open the app in a
+   2. Text
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   3. Image
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+   4. StyleSheet 
 
-## Get a fresh project
+   ## 📂 Project Structure
 
-When you're ready, run:
+      Example UI hierarchy:
 
-```bash
-npm run reset-project
-```
+            Root (View)
+            ├── Header (Text - App Title)
+            ├── Profile Section (View)
+            │    ├── Name (Text)
+            │    ├── NIM (Text)
+            │    └── Major (Text)
+            └── Quote Section (View)
+                  └── Motivational Quote (Text)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## 🚀 How to Run the Project
+1. Clone this repository
 
-To learn more about developing your project with Expo, look at the following resources:
+git clone https://github.com/mikaelllp/Mikael-IdCard.git
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. Install dependencies
 
-## Join the community
+npm install
 
-Join our community of developers creating universal apps.
+3. Start the Expo development server
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npx expo start
+
+4. Run the app using:
+
+- Expo Go (Android / iOS)
+
+- Android Emulator
+
+- iOS Simulator
+
+## 🎓 Purpose of the Project
+
+   This project was created to practice:
+
+   - React Native component structure
+
+   - Props usage
+
+   - Layout styling
+
+   - Basic mobile UI development
+
+## 👨‍💻 Author
+
+Mikael Putra Manullang
+Information Systems Student
+Universitas Prima Indonesia
