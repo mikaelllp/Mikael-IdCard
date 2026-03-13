@@ -11,8 +11,9 @@ export default function HomeScreen() {
 
       {/* SECTION IDENTITAS */}
       <Text style={styles.name}>Mobile Dev </Text>
-       <Text style={styles.nim}>Nama: Mikael Putra Manullang </Text>
-       <Text style={styles.nim}>Nim : 243303621262</Text>
+       <Text style={styles.nim}>Mikael Putra Manullang </Text>
+      <Text style={styles.nim}>Nim   : 243303621262</Text>
+      <Text style={styles.nim}>   Prodi : Sistem Informasi</Text>
 
       {/* SECTION BIO */}
       <View style={styles.bioCard}>
