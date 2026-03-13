@@ -5,7 +5,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       {/* SECTION FOTO */}
       <Image
-        source={require("../../assets/images/mikaelll.jpeg")}
+        source={{ uri: "https://i.imgur.com/af88RU9.jpeg" }}
         style={styles.profilePic}
       />
 
