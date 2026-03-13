@@ -79,5 +79,7 @@ npx expo start
 ## 👨‍💻 Author
 
 Mikael Putra Manullang
+
 Information Systems Student
+
 Universitas Prima Indonesia
