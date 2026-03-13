@@ -6,7 +6,7 @@ This project was created as a practice assignment for Mobile Programming.
 The application shows basic student information such as Name, Student ID (NIM), Major, and a Motivational Quote in a clean and simple UI.
 
 ## 📸 Screenshots
-![Preview Aplikasi](link_ke_foto_lo.png)
+![Preview Aplikasi](https://i.imgur.com/kAc7LpG.jpeg)
 
 ## 🛠️ Tech Stack
 - **Framework:** React Native (Expo SDK)
